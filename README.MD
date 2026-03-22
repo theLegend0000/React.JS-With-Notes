@@ -298,3 +298,10 @@ export default Counter
 ```javascript
 setCount(prev => prev + 1)
 ```
+
+# 09 Props VS States
+## Props:
+Props are received from the parent component, they are immutable and read-only. They configure child components and pass data from parent to child.
+
+## States
+They are variables, defined and managed within the states. They are mutable and can be updated by the component. They manage data that changes within the component and affects its rendering.
