@@ -292,3 +292,9 @@ export default Counter
 ```
 ### To understand it a basic level see the commented code.
 ### See, how you don't need to tell React to update the DOM, meanwhile in Vanilla JS you have to first update the variable, and then you have to update the DOM.
+
+### In the below code, we are using the functional form of setState, which takes a function as an argument. This function receives the previous state (prev) and returns the new state. This is useful when the new state depends on the previous state, as it ensures that we are working with the most up-to-date state value, especially in cases where multiple state updates might be queued.
+
+```javascript
+setCount(prev => prev + 1)
+```
