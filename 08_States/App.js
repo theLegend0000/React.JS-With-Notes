@@ -1,10 +1,10 @@
 import AppleCounter from "./components/AppleCounter"
 
-const App = ({root}) => {
+const App = () => {
 
     return (
         <>
-            <AppleCounter root={root} />
+            <AppleCounter/>
         </>
     )
 }
